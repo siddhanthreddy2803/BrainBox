@@ -1,0 +1,46 @@
+.home {
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; 
+    text-align: center;
+    padding: 20px;
+}
+
+.home__container {
+    max-width: 80%; 
+    padding: 20px;
+}
+
+.home__heading {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    line-height: 1.5;
+    color: #333;
+}
+
+.home-btn {
+    background-color: rgb(52, 52, 52);
+    color : white;
+    border-radius: 10px;
+    text-decoration: dashed;
+
+}
+.home-btn:hover{
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .home__heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home__heading {
+        font-size: 1.5rem; 
+    }
+}
